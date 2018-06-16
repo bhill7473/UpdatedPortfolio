@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+}
+.pro-link:link {
+    color: black;
+}
+
+/* visited link */
+.pro-link:visited {
+    color: black;
+}
+
+/* mouse over link */
+.pro-link:hover {
+    color: black;
+    text-decoration:none;
+}
+
+/* selected link */
+.pro-link:active {
+    color: black;
+}
+article{
+    padding:10px;
+}
+article p {
+    text-indent: 20px;
+    word-wrap: break-word;
+}
+
+#cmpmsg{
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3{
+    
+    color:black;
+    text-align:center;
+    z-index:1;
+    position:relative;
+    bottom:5px;
+}
+img{
+    float:right;
+    padding:5px;
+}
+.mainC{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.navbar-brand{
+    font-weight:bold;
+    font-style:italic;
+}
+form{
+    font-weight:bold;
+}
+ul{
+    font-weight:bold;
+    font-style:italic;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    
+    text-align: center;
+}
